@@ -167,7 +167,7 @@ namespace Forum.Controllers
                 var findPost = postList.SingleOrDefault(p => p.ID == id);
                 if(findPost == null)
                 {
-                    return "Post could not be delete :(";
+                    return "Post with id: " + id + " could not be delete :(";
                 }
                 else
                 {
